@@ -1,12 +1,18 @@
 import pytest
 
+from BaseClass import BaseClass
+
 
 @pytest.mark.usefixtures("dataload")
-class TestExample2:
+class TestExample2(BaseClass):  # inhering from baseclass
 
     def test_editProfile(self, dataload):
-        print(dataload)  # if we want print any index then print(dataload[0])
-        print(dataload[2])
+        log = self.getLogger()
+        log.info(dataload)
+        log.info(dataload[2])
+
+        # print(dataload)  # if we want print any index then print(dataload[0])
+        # print(dataload[2])
 
 
 # @pytest.mark.usefixtures("crossBrowser")

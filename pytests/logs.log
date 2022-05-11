@@ -1,0 +1,12 @@
+2022-05-11 21:53:54,241 :DEBUG : test_logging : debug statement
+2022-05-11 21:53:54,242 :INFO : test_logging : information messages
+2022-05-11 21:53:54,242 :WARNING : test_logging : warning received
+2022-05-11 21:53:54,242 :ERROR : test_logging : Assertion failed
+2022-05-11 22:16:30,045 :INFO : test_editProfile : ['Rahul', 'shetty', 'qdjhd.com']
+2022-05-11 22:16:30,046 :INFO : test_editProfile : qdjhd.com
+2022-05-11 22:17:52,395 :INFO : test_editProfile : ['Rahul', 'shetty', 'qdjhd.com']
+2022-05-11 22:17:52,396 :INFO : test_editProfile : qdjhd.com
+2022-05-11 22:17:52,467 :DEBUG : test_logging : debug statement
+2022-05-11 22:17:52,467 :INFO : test_logging : information messages
+2022-05-11 22:17:52,467 :WARNING : test_logging : warning received
+2022-05-11 22:17:52,468 :ERROR : test_logging : Assertion failed
