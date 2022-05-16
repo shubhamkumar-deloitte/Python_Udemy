@@ -3,34 +3,50 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 
-from utilities.BaseClass import BaseClass
 
 from pageObjects.homepage import HomePage
-
+from utilities.BaseClass import BaseClass
 from pageObjects.checkoutpage import CheckOut
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.select import Select
+from pageObjects.confirmpage import confirmPage
 
 
 class TestOne(BaseClass):
 
     def test_homepage(self):
-        print("inside homepage")
+
+        log = self.getLogger()
+        log.info("inside homepage")
 
         # home page object
         home = HomePage(self.driver)
         home.shopItems().click()
+        log.info("clicked on shop link")
 
     def test_checkoutpage(self):
-        print("inside checkout")
+        log = self.getLogger()
+        log.info("inside checkout")
         # checkout page object
 
         checkout = CheckOut(self.driver)
         checkout.selectPhone().click()
+        log.info("clicked on phone to be bought")
         checkout.get_checkoutBtn().click()  # clicking on checkout btn
-        checkout.get_checkoutBtn().click()
+        log.info("clicked on first checkout ")
+
+    def test_confirm(self):
+
+        confirmpage = confirmPage(self.driver)
+        confirmpage.get_secondCheckout().click()
+        time.sleep(3)
+        confirmpage.get_inputField().send_keys("ind")
+        self.verifyLinkPresence("India")
+        self.driver.find_element_by_link_text("India").click()
+        confirmpage.get_purchase().click()
+
+
+
+
+
 
 
 

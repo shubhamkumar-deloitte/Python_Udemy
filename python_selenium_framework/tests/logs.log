@@ -1,0 +1,30 @@
+2022-05-16 16:46:44,829 :INFO : test_homepage : inside homepage
+2022-05-16 16:47:07,499 :INFO : test_homepage : clicked on shop link
+2022-05-16 16:47:07,524 :INFO : test_checkoutpage : inside checkout
+2022-05-16 16:47:07,795 :INFO : test_checkoutpage : clicked on phone to be bought
+2022-05-16 16:47:07,938 :INFO : test_checkoutpage : clicked on first checkout 
+2022-05-16 16:48:35,703 :INFO : test_homepage : inside homepage
+2022-05-16 16:48:51,521 :INFO : test_homepage : clicked on shop link
+2022-05-16 16:48:51,540 :INFO : test_checkoutpage : inside checkout
+2022-05-16 16:48:51,804 :INFO : test_checkoutpage : clicked on phone to be bought
+2022-05-16 16:48:51,937 :INFO : test_checkoutpage : clicked on first checkout 
+2022-05-16 16:50:40,962 :INFO : test_homepage : inside homepage
+2022-05-16 16:51:14,593 :INFO : test_homepage : clicked on shop link
+2022-05-16 16:51:14,620 :INFO : test_checkoutpage : inside checkout
+2022-05-16 16:51:14,886 :INFO : test_checkoutpage : clicked on phone to be bought
+2022-05-16 16:51:15,012 :INFO : test_checkoutpage : clicked on first checkout 
+2022-05-16 17:22:46,979 :INFO : test_homepage : inside homepage
+2022-05-16 17:23:20,362 :INFO : test_homepage : clicked on shop link
+2022-05-16 17:23:20,381 :INFO : test_checkoutpage : inside checkout
+2022-05-16 17:23:20,609 :INFO : test_checkoutpage : clicked on phone to be bought
+2022-05-16 17:23:20,714 :INFO : test_checkoutpage : clicked on first checkout 
+2022-05-16 17:59:52,917 :INFO : test_homepage : inside homepage
+2022-05-16 18:00:21,086 :INFO : test_homepage : clicked on shop link
+2022-05-16 18:00:21,107 :INFO : test_checkoutpage : inside checkout
+2022-05-16 18:00:21,404 :INFO : test_checkoutpage : clicked on phone to be bought
+2022-05-16 18:00:21,580 :INFO : test_checkoutpage : clicked on first checkout 
+2022-05-16 18:14:41,246 :INFO : test_homepage : inside homepage
+2022-05-16 18:15:15,613 :INFO : test_homepage : clicked on shop link
+2022-05-16 18:15:15,627 :INFO : test_checkoutpage : inside checkout
+2022-05-16 18:15:15,857 :INFO : test_checkoutpage : clicked on phone to be bought
+2022-05-16 18:15:15,966 :INFO : test_checkoutpage : clicked on first checkout 
